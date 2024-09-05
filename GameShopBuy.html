@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pārdodam virtuālos priekšmetus no populārām videospēlēm.">
+    <title>GameShop - Preces</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: bold;
+            color: #222;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 280px;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            max-width: 250px;
+        }
+        .product h3 {
+            font-size: 22px;
+            color: #333;
+        }
+        .product p {
+            font-size: 18px;
+            color: #555;
+        }
+        .product button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .product button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameShop</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Sākumlapa</a>
+        <a href="#cs2">CS2</a>
+		<a href="#brawl-stars">Brawl Stars</a>
+        <a href="#world-of-tanks">World Of Tanks</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Virtuālie priekšmeti no populārām videospēlēm!</h1>
+    </section>
+
+    <div class="container" id="preces">
+        <h2 style="text-align : center;" id = "cs2">CS2</h2>
+        <section class="products">
+            <div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9kZWFnbGVfY3VfZGVhZ19wcmludHN0cmVhbV9saWdodC42MmMxYzM4NDAyYTcyMzZmMjM0M2EzYzU1NDBkOTU0NDFkOTQwNWI2LnBuZw--/auto/auto/85/notrim/52e0947839e2a5f9088813a8d4e8ab6f.webp" alt="Deagle">
+                <h3>Deagle Printstream</h3>
+                <p>Cena: 25 EUR</p>
+				<form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+            <div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2FrX3BvcmNlbGFpbl9saWdodC5kYzRmNzZmYzM2NTE3NWU0YWM0MmQxNGVhODQ3MmQ3NmNmM2ZhNjYzLnBuZw--/auto/auto/85/notrim/66286698568f34224b86256f3790dbad.webp" alt="AK-47">
+                <h3>AK-47 Inheritance</h3>
+                <p>Cena: 40 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+            <div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX200YTFzX2JsYWNrX2xvdHVzX2xpZ2h0LmU1ZmM3YzUwZWU4MTBlYmUxNDU0YmUzY2YxOWNjYzU4NjEzMjU3ODkucG5n/auto/auto/85/notrim/d65b371dd3eb10c546f6fd1cb7d53bec.webp" alt="M4A1-S">
+                <h3>M4A1-S Black Lotus</h3>
+                <p>Cena: 10 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+            <div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3Nwb3J0eV9nbG92ZXNfc3BvcnR5X3BvaXNvbl9mcm9nX2JsdWVfd2hpdGVfbGlnaHQuMjc4NzBjNjE1MWJmNDcyODBhMWY4ODIxZjRiMDViNTRjMzU5OGMxMy5wbmc-/auto/auto/85/notrim/95a294b10987e7a9927babaa1ef0e7f2.webp" alt="Gloves">
+                <h3>Gloves Amphibious</h3>
+                <p>Cena: 400 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9rbmlmZV9rdWtyaV9hcV9vaWxlZF9saWdodC5hNzYxMjFhNjE4ZDliZTUzMjdkYzAzMDZhNzg1OTJhMDY0YTk3YjgyLnBuZw--/auto/auto/85/notrim/51499aed135cf77dc632bfbcda6b7764.webp" alt="Knife">
+                <h3>Kurki Knife Case Hardened</h3>
+                <p>Cena: 300 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9rbmlmZV9tOV9iYXlvbmV0X2FtX2RvcHBsZXJfcGhhc2UxX2xpZ2h0LjEzYTZiYTdkNjcxYjgwZjIyOWY2NDAzMzUzNjU0MDA2MzcwNWY2YjYucG5n/auto/auto/85/notrim/0b6a5c1ba6f9b89107799f1c3be3a2cc.webp" alt="Knife">
+                <h3>M9 Bayonet Doppler</h3>
+                <p>Cena: 1200 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+        </section>
+    </div>
+	<div class="container" id="preces">
+        <h2 style="text-align : center;" id = "brawl-stars">Brawl Stars</h2>
+        <section class="products">
+            <div class="product">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKkAAACrCAMAAAAqw0wWAAABaFBMVEX////D9Sdg2xpEnYP4/aIsZ4UAAACZmZmf3VY0eHzy8vLf39+Pj4+oqKh+fn6jo6OGhoZNTU0MDAysrKxvb29oaGjp6en4+Pi/v7+SkpLZ2dlMon3IyMjx8fFjY2POzs4XFxdaWlowMDAgICC48iWi7CO0tLRVwRcQJARZzBh34R2s5Tez6jIKFx08iXNLS0snKBoaOwYJFQI8iRAnWQvt8pvT14opKSl8f1Ewbg0sZQwGDQE5OTkNHAPZ+Fp/4x4mWEmf3EFEmhJarHMLGhYPIx2CuE8ZOzExbIJdlWYgSj4YOUkwcF4mWXIQJS8aGhA0NSFFRi0xQB0WMQVlZ0OMjlu8wHpJphNXWDk2fQ4fSAhPtBWnqm0vawzx/JLM9jwiIxbc+GKusnLn+npSvE6/7XBSvT591zfR7IJLrGhMr1Wr51/k+nSb5FB8xFpsuWU1e2ei1Ts3f4CIzFJqoV8bQVN2rVdIjG8eeVVAAAAJK0lEQVR4nO2c+X/TRhrGiQ3v0PhS5Nux4wscHCDhLFtiINRJ3SaElBbK1dKLbZeWI7ss239/35Fk+ZqR51LCZ1fPj+A437zHM69GI504ESlSpEiRIkWKFClSpEiRIv3vqFbpZJLpXH5lZSWfSyczpXrxuJFmVehYzTbMqtG0OoXjhvO1WErfGJLZB5e+fvDgm8uXvz13xce9ke4sHjckYnaatoNz8ODho++un3R0Ouao+/jptcsecDN7vLDVnIN58OTRpyfH5JG6Wn367JYT7nz12DizLUpw6eF3J6c0QUr1/OY5+tFW6jharEZoB9kPP53GZJFS2Gu0DtqZo2YtZmgTff3oOoOTTYple/Wcw3qkoCWa9wffMzG5pKir39Ia6BwZZy1H48nlDCCNxT6ncV1JHA1oBgv04BGfM5AU44pO0DiKEqjlaR+x61OINNa9Rv019LBWsZMuzdiSFGks9hjD2g7ZXZMYjjkBFSB1wmpbIXIuYittBnSSMCl2FoY1F9oCW9jAzLOcXoE0toomsBRSsSbQRJ/MzbwoqVMBrVBQE9hLfxPhFCSNxX7AgTAEVAlQUdLYZ2GgyoC+OC9IGgZqoScB+uPCHQnUltGrl2JTCnRBCnXJpFnlxEFPUlAJ1Jvoq+ZAk6L2hLrtgC6cWRMk7T4DKJsCrdjwk4jhj4FKoOISYBuaARJtOJAGlUB9fgVumOkqHPME1vppUAnUqwB5E6ApnJ4EQX9eWFBCxXU1qw9aaMNPgt00BSqO2r0F7Zo2KRrUL4qg4qiPAdK6oNj3T8RAX8+CIqp4/kuapBuiff8rC1QYdXUTenqg2E6f/akBKor6cgtAbxugBbe6sbW/zwV9wQMVQv2tH49vQ0tnIygDcJV+1e//UAadj7r6Ko7a0nOqFpzzvu7NCz7n69tBoIh69ix/YOn+EXe1oxPUjhdSqjV2ub6+/WMw5lAc2pfLHigNqnr7N2mV+popV2HKUXDvTBosLVBfNiypgiYAbk588e+jEvhVlpJB230VH9cuQEWR1ILN1alkvbmuQzmiPbsW644S72odQHVbpQ3PZupqTZdyqLtTnKgBtNVAS2P9NNIZM6ALb2dA4/dUeyoHVxjNetYQaX+WFHtK7ZKqwUh+LHbHDOh5Biimv6ECWmUm31T6T7NIMf0qV1Rl2OyySM2k/x2LFNOfVCDdgMssUDPpPzPb+VQ7KrNfEeAHJmnMBOldJiiavy2/9mOZfs4mNZF+hkd5hVqXJsWBj1mmZtLfZ5PGAYg0adof+Ka1pg/K9CiqbQVH7XEaKmbCp5geRTVQaCl7ao4yWqhsj3JbSha0BvCUR6pfqGyPijvjtOwWVR3gMY9UO/0cj0Idys+oJW7rG0g/x6PizowqezGdBeCCaqe/zyVFm5K9TU1gk0+quUxxPSpOV35ZQ00yh1Mz6ed6VJwaquyMYnGNXz/9XI9ySGWvpfhLFJXeMsX1KIdUdnsymFTLpy4EgBon1YtpcPblSW+FVqfvDZOG1/vBLiVPGuSnmstp3ySpFbSa6k6oAemXvzWBpNN7UqaSHzShKOxNlbmXUQZI+Y6KF1KyaxQJmE/1L0+4w9SW/ITSAbjGI9WfpLnp35Xf7cf5lHsdpX91wl2mduS3+yrAN1QDO1O8ZWpbfuYvNLjNb+AqmudT2Pq27HVUrcXZ6jOzh8JZpu4pHPUpLnFbyshmX59JOgBYkt6YygFvmjIBykn/jspBnwxwCtXMpjTTp7BMFfalqjbH+w1t9LOWKfR9hWM+lR7HUQ3dPGEtU5j8nvzNs8IKMLfPTXgUFSP9NPl5hfNI9Eg0I/2m7vKcYSYfLIX70Z02K/2rb4xk/59ffLXOSn5b5eBEvYl/4vNJTudmfP/t3QualF+eQn3CSH5TfvMcCxWH6Snzf+l/6/Lb0+d1KF39a4J0QJOvdGwu05rsqd+mjGX53Xsp2klKR1+Osa6jLd5Qe8qjit0/2phe7TNsJR5/916oFBiUHqtfrrv00Rm1Q5OFsu0H1T8twhIWbiDmeQ6lK69c1zfR9pOKZyZTOKW4t8+mDw3M6HQQ6CcBnH650pBupNRAT9RpT22uzhQoS/yozgV1ypVWKVgqnU9VIxv4489ezecMQBUApay08XtE+cBkKU2faDwUIl1mo144FAE9tU9/kaV+Xq7gBHVHiDS+zLIsQdBTF52QajyEkKWVCrvKqKKge/SBUEvntFyC0Pa3Z5doQdS/xED3aTttENXTUm5Qkw3x/M+gfiUG6uTetlQtahjUFYn8x5cn1qt/C4LS3MOKXkhx9iPOw89bCqj/EQT94DwyTXSfly0QixaRLWZV46iioE6R2hbRfvig7uZ/W7CrfFQpUMy9/gMdxZRjqrAjhyoMSrsJrTRj4NGjBHH6HwYyqF8Igp6677yNIqnbTq6qbqnCQJA03r8gCWoR3cP8ropZ4r6kQTiqfwXNozOgdp6kDD12ViCkCTKoQuMT1qgDCkskY+xRvgpxVlXhthIjdZsJQYnqWMpQdYgqZlZCpK494XJvwKBGKpaI61Vgi6xWIqQfYAhaMvqSDOwqL6qwOz+sAqT3fVDTr3RZHKHOr4C5pF6J0ho11fZjqCl0ANsLqybpnvs1djMMUBc11/DCek+DdBjQRi4cULcArOGrmQKtNYjUM1GAtmW+Rn3UDhlaAKYugJVPuu8lHks0SUh4L3Mqoq+SvD2XlUc64mzk8ZuqYb7Dp57BCugNfx8M2PXKJvXzjuaEATW5MrFUwL7yG4v2FsteGaT7exf9n6GtRFKhv3RsEZerkV85w8Du9KXLNOk4JthLZWJ6YeKoghVArHFW2B5sHXJIP+zdH/+kTTuJZIwMzvPlhnWSlcZ2sLt173DdI93f/7C3d//i5EdcznBbaVKJLP2F5RXWi++Qx2b+M7SbNO8ke7SvxavQziIk3eNQzeJv5JyfSFWO/F1oHms5JwBr93Jll/N4Xovo1gCNbLPFp7VbzbT3uewRvauLoUKJDGXlmr32JK/d7jXzlv+J0vG+trGYGMHSWrDSOUfptFUe/49S4iN4G2YxUU2RIKWqHwOmp8VEvZNhQGY69Y+I0lexkKjU69USVbVaryRqHyFkpEiRIkWKFClSpEiRIv3f6L+lUFt4m/oAmwAAAABJRU5ErkJggg==" alt="Gems">
+                <h3>500 Gems</h3>
+                <p>Cena: 5 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="data:image/png;base64,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" alt="Gems">
+                <h3>1000 Gems</h3>
+                <p>Cena: 8 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="data:image/png;base64,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" alt="Gems">
+                <h3>2500 Gems</h3>
+                <p>Cena: 15 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="data:image/png;base64,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" alt="Gems">
+                <h3>5000 Gems</h3>
+                <p>Cena: 30 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="data:image/png;base64,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" alt="Gems">
+                <h3>15000 Gems</h3>
+                <p>Cena: 55 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="data:image/png;base64,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" alt="Gems">
+                <h3>25000 Gems</h3>
+                <p>Cena: 90 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+        </section>
+    </div>
+	<div class="container" id="preces">
+        <h2 style="text-align : center;" id = "world-of-tanks">World Of Tanks</h2>
+        <section class="products">
+            <div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>100000 Credits</h3>
+                <p>Cena: 5 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+            <div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>250000 Credits</h3>
+                <p>Cena: 10 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>750000 Credits</h3>
+                <p>Cena: 25 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>1000000 Credits</h3>
+                <p>Cena: 35 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>5000000 Credits</h3>
+                <p>Cena: 100 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+			<div class="product">
+                <img src="https://www.gamelooting.com/media/image/product/40226/md/world-of-tanks-erfahrung-kredite-wot-kredite-credits.png" alt="Coins">
+                <h3>10000000 Credits</h3>
+                <p>Cena: 350 EUR</p>
+                <form action="GameShopBank.html" target="_blank">
+                <button>Pērkt</button>
+				</form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GameShop. Visas tiesības aizsargātas.</p>
+    </footer>
+
+</body>
+</html>

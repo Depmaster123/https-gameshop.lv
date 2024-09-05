@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sazinieties ar GameShop komandu, lai saņemtu atbalstu vai uzdotu jautājumus.">
+    <title>GameShop - Kontakti</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: white;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2, p {
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contact-info div {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 1;
+            min-width: 300px;
+        }
+        .contact-info div h2 {
+            margin-top: 0;
+        }
+        .contact-info div p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameShop</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Sākumlapa</a>
+        <a href="GameShopParMums.html">Par mums</a>
+        <a href="#">Kontakti</a>
+        <a href="GameShopBuy.html">Preces</a>
+    </nav>
+
+    <div class="container">
+        <h1>Kontakti</h1>
+        <section class="contact-info">
+            <div>
+                <h2>Adrese</h2>
+                <p>GameShop HQ<br>
+                Brīvības iela 100,<br>
+                Rīga, LV-1010,<br>
+                Latvija</p>
+            </div>
+            <div>
+                <h2>Telefons</h2>
+                <p>Zvaniet mums: <strong>+371 20018174</strong></p>
+            </div>
+            <div>
+                <h2>E-pasts</h2>
+                <p>Rakstiet mums: <strong>support@gameshop.lv</strong></p>
+            </div>
+        </section>
+
+        <h2>Sazinieties ar mums</h2>
+        <form action="#" method="post">
+            <label for="name">Jūsu Vārds</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Jūsu E-pasts</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Ziņojums</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Sūtīt ziņu</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GameShop. Visas tiesības aizsargātas.</p>
+    </footer>
+</body>
+</html>

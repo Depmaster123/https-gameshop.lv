@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mājaslapas sākumlapa ar informāciju par uzņēmumu un pakalpojumiem.">
+    <title>GameShop - Sākumlapa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .header-logo {
+            height: 50px; /* Задайте высоту логотипа */
+        }
+        .header-title {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: bold;
+            color: #222;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .hero .button {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 15px 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero .button:hover {
+            background-color: #555;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .content .box {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content .box h2 {
+            margin-top: 0;
+        }
+        .recommendations {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .recommendations .box {
+            flex: 1;
+            min-width: 280px;
+            margin: 10px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .reviews {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .reviews h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\akudr\Desktop\GameShop\logo.png" alt="GameShop Logo" class="header-logo">
+        <h1 class="header-title">GameShop</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="location.reload();">Sākumlapa</a>
+        <a href="GameShopParMums.html">Par mums</a>
+        <a href="GameShopKontakti.html">Kontakti</a>
+        <a href="GameShopBuy.html">Preces</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Laipni lūdzam mūsu internetveikalā!</h1>
+        <a href="GameShopBuy.html" class="button">Skatīt preces</a>
+    </section>
+
+    <div class="container">
+        <section class="content">
+            <div class="box">
+                <h2>Info</h2>
+                <p>GameShop jūs varat nopirkt virtuālas preces jūsu mīļākajai spēlei par ļoti zemu cenu.</p>
+            </div>
+        </section>
+
+        <section class="recommendations">
+            <div class="box">
+                <h2>Populārie produkti</h2>
+                <p>Apskatiet mūsu populārākos produktus un atklājiet jaunākos piedāvājumus.</p>
+                <ul>
+                    <li>Spēļu pāriem</li>
+                    <li>Virtuālās monētas</li>
+                    <li>Spēļu papildinājumi</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Jaunākie piedāvājumi</h2>
+                <p>Izpētiet mūsu jaunākos piedāvājumus un atlaides, lai iegūtu labākos piedāvājumus.</p>
+                <ul>
+                    <li>Atlaides līdz 50%</li>
+                    <li>Sezonas akcijas</li>
+                    <li>Ekskluzīvi piedāvājumi</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Klientu atsauksmes</h2>
+            <p>"GameShop piedāvā izcilu klientu apkalpošanu un lielisku produktu izvēli!" - Andris</p>
+            <p>"Lieliski piedāvājumi un ātra apstrāde. Ieteiktu ikvienam!" - Laura</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GameShop. Visas tiesības aizsargātas.</p>
+    </footer>
+
+</body>
+</html>
